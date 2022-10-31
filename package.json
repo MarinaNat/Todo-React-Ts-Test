@@ -2,6 +2,7 @@
   "name": "react-ts-todo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://marinanat.github.io/Todo-React-Ts-Test/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^11.2.7",
@@ -24,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +48,7 @@
     ]
   },
   "devDependencies": {
-    "@types/uuid": "^8.3.4"
+    "@types/uuid": "^8.3.4",
+    "gh-pages": "^4.0.0"
   }
 }
