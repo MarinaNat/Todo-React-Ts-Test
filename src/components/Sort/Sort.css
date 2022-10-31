@@ -1,0 +1,39 @@
+.sort {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.sort__text {
+	font-family: "Roboto Flex", RobotoDraft, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	color: #ababab;
+}
+
+.sort__btn-grup {
+	display: flex;
+	width: 25%;
+	justify-content: space-between;
+}
+
+.sort__btn {
+	display: inline-block;
+	text-decoration: none;
+	padding: 8px;
+	outline: none;
+	background-color: inherit;
+	border: none;
+	cursor: pointer;
+	color: #ababab;
+}
+
+.sort__btn:hover {
+	color: #534d4d;
+}
+
+.sort__btn-sorting {
+	border: 1px solid #ababab;
+	border-radius: 3px;
+}
